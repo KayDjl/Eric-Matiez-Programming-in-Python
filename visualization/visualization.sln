@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "visualization", "visualization.pyproj", "{82F0AA80-9B6C-42C9-A5F4-41F5EC1B13DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82F0AA80-9B6C-42C9-A5F4-41F5EC1B13DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F0AA80-9B6C-42C9-A5F4-41F5EC1B13DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77D4D90B-EB03-46C5-93C6-EE773969A476}
+	EndGlobalSection
+EndGlobal

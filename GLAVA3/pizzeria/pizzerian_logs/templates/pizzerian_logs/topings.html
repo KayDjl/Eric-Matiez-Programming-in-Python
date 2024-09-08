@@ -1,0 +1,18 @@
+{% extends 'pizzerian_logs/base.html' %}
+
+{% block content %}
+
+    <p>Pizza: {{ toping }}</p>
+    
+    <p>Toppings: </p>
+    <ul>
+        {% for entry in entries %}
+        <li>
+            <p>{{ entry.toppings|linebreaks }}</p>
+        </li>
+        {% empty %}
+            <li>No toppings</li>
+        {% endfor %}
+    </ul>
+
+{% endblock content %}

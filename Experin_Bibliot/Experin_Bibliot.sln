@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Experin_Bibliot", "Experin_Bibliot.pyproj", "{39599F27-A362-48B6-BE91-CACB4EC43797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39599F27-A362-48B6-BE91-CACB4EC43797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39599F27-A362-48B6-BE91-CACB4EC43797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6D7AAA1-9B26-4B8D-AFE8-945CCD6121A2}
+	EndGlobalSection
+EndGlobal

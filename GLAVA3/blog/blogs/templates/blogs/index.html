@@ -1,0 +1,25 @@
+{% extends 'blogs/base.html' %}
+
+{% block content %}
+
+<ul>
+    {% if user.is_authenticated %}
+        <a href="{% url 'blogs:new_blog' %}">Add new blog</a>
+    {% endif %}
+    {% for inde in index %}
+    <li>
+        <p>Author: {{ inde.owner.username }}</p> 
+        <p>{{ inde.date_added|date:'M d, Y H:i' }}</p>
+        <p>{{ inde.title|linebreaks }}</p>
+        <p>{{ inde.text|linebreaks }}</p>
+        {% if user.is_authenticated and user == inde.owner %}
+        <a href="{% url 'blogs:edit_blog' inde.id %}">Edit blog</a>
+        {% endif %}
+    </li>
+    {% empty %}
+    <li>No</li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
+
